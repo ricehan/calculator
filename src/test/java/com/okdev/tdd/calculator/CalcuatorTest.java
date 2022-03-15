@@ -18,5 +18,23 @@ public class CalcuatorTest {
 		int result = calculator.add(1, 2);
 		assertEquals(3, result);
 	}
+	@Test
+	public void testMinus() {
+		Calculator calculator = new Calculator();
+		int result = calculator.minus(1, 2);
+		assertEquals(-1, result);
+	}
+	@Test
+	public void testMultiply() {
+		Calculator calculator = new Calculator();
+		int result = calculator.multiply(1, 2);
+		assertEquals(2, result);
+	}
+	@Test
+	public void testDivide() {
+		Calculator calculator = new Calculator();
+		int result = calculator.divide(2, 2);
+		assertEquals(1, result);
+	}
 
 }
