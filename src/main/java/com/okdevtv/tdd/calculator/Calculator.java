@@ -1,4 +1,4 @@
-package com.okdev.tdd.calculator;
+package com.okdevtv.tdd.calculator;
 
 public class Calculator {
 

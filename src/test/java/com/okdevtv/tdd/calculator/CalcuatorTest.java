@@ -1,10 +1,10 @@
-package com.okdev.tdd.calculator;
+package com.okdevtv.tdd.calculator;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import com.okdev.tdd.calculator.Calculator;
+import com.okdevtv.tdd.calculator.Calculator;
 
 public class CalcuatorTest {
 
