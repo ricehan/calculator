@@ -17,9 +17,9 @@ public class Calculator {
 		return i*j;
 	}
 
-//	public int divide(int i, int j) {
-//		// TODO Auto-generated method stub
-//		return i/j;
-//	}
+	public int divide(int i, int j) {
+		// TODO Auto-generated method stub
+		return i/j;
+	}
 
 }

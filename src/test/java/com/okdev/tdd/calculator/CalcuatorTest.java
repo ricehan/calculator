@@ -31,11 +31,11 @@ public class CalcuatorTest {
 		int result = calculator.multiply(1, 2);
 		assertEquals(2, result);
 	}
-//	@Test
-//	public void testDivide() {
-//		Calculator calculator = new Calculator();
-//		int result = calculator.divide(2, 2);
-//		assertEquals(1, result);
-//	}
+	@Test
+	public void testDivide() {
+		Calculator calculator = new Calculator();
+		int result = calculator.divide(2, 2);
+		assertEquals(1, result);
+	}
 
 }
